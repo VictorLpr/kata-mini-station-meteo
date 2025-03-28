@@ -86,7 +86,7 @@ body {
     position: absolute;
     display: none;
     flex-direction: column;
-    background-color: #9adeb0;
+    background-color: #9fd1af;
     padding: 20px;
     width: 60%;
     height: 60%;
@@ -107,6 +107,10 @@ body {
     padding: 3px;
     width: fit-content;
     background-color: #4a90e2;
+    cursor: pointer;
+    
 }
 .chart p {
+    cursor: pointer;
+    width: fit-content;
 }

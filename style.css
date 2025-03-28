@@ -85,6 +85,7 @@ body {
 .chart {
     position: absolute;
     display: none;
+    flex-direction: column;
     background-color: #9adeb0;
     padding: 20px;
     width: 60%;
@@ -95,7 +96,6 @@ body {
 }
 
 #myChart {
-    color: #f5f7fa;
 
 }
 
@@ -107,4 +107,6 @@ body {
     padding: 3px;
     width: fit-content;
     background-color: #4a90e2;
+}
+.chart p {
 }

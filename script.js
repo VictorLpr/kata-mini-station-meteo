@@ -44,7 +44,7 @@ async function fetchCoordinates(choice) {
         details.innerText = 'Vérifiez le nom de la ville';
         past.style.display = 'none';
     } else {
-        city.innerText = choice;
+        city.innerText = data[0].name;
         gps.innerText = `Coordonnées GPS: ${data[0].lat}, ${data[0].lon}`;
         fetchWeather(data[0].lat, data[0].lon);
     }

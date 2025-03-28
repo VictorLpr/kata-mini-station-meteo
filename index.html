@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini-Station Météo</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 <body>
     <div class="weather-container">
@@ -16,6 +18,10 @@
         <div id="gps"></div>
         <div id="temperature">-°C</div>
         <div id="details">Mise à jour en cours...</div>
+        <div class="past"></div>
+    </div>
+    <div class="chart">
+        <canvas id="myChart"></canvas>
     </div>
 
     <script src="script.js"></script>

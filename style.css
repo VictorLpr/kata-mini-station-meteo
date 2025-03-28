@@ -13,7 +13,7 @@ body {
 .weather-container {
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     padding: 30px;
     text-align: center;
     max-width: 400px;
@@ -80,4 +80,31 @@ body {
 .loading {
     opacity: 0.5;
     pointer-events: none;
+}
+
+.chart {
+    position: absolute;
+    display: none;
+    background-color: #9adeb0;
+    padding: 20px;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+    border-radius: 10px;
+}
+
+#myChart {
+    color: #f5f7fa;
+
+}
+
+.past {
+    display: none;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: #f5f7fa;
+    padding: 3px;
+    width: fit-content;
+    background-color: #4a90e2;
 }
